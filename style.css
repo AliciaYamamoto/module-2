@@ -1,0 +1,97 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+h1{
+	display: block;
+	font-size: 175%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.menu-box{
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	margin: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 125%;
+	background-color: #ccffcc;
+}
+
+#chicken-title{
+	float:right;
+	background-color: #ff6666;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#beef-title{
+	float:right;
+	background-color: #9999ff;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+#sushi-title{
+	float:right;
+	background-color: #ff9933;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	border-style:solid;
+	border-width: 1px;
+	border-color: black;
+	margin-bottom: 10px;
+}
+
+p{
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 26px;
+	text-align: justify;
+	font-size: 85%;
+}
+
+
+@media (min-width: 992px){
+	.col-lg-4 {
+		width:33%;
+		display: inline-flex;
+	 }
+
+}
+
+/** For Tablet **/
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-12, .col-md-6 {
+	display: inline-flex;
+	float: right;
+	}
+.col-md-6{
+	width: 50%;
+}
+.col-md-12{
+	width: 100%;
+}
+	
+}
+
+
+/** For Phone **/
+@media (max-width: 767px){
+	.col-sm-12 {
+		display: flex;
+		width: 100%;
+	}
+	.col-xs-12{
+		display: flex;
+		width: 100%;
+	}
+}
+
+
